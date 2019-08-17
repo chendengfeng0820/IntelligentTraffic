@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<button class="btn"  id="demo">测试</button>
+<script type="text/javascript">
+    var a=document.getElementById('demo');
+    a.onclick=function(){
+        $.ajax({
+            type: "post",//数据发送的方式（post 或者 get）
+            // head: "application/json; charset=UTF-8",
+            url: "http://localhost:6789/Login",//要发送的后台地址
+            data: '{"uid":"xxx","uname":"xxx","pwd":"xxxx"}', //要发送的数据（参数）格式
+            dataType: "json",//后台处理后返回的数据格式
+            //  traditional: true,                 //  加上序列化参数
+            success: function (data) {//ajax请求成功后触发的方法
+                console.log(data);
+                //此时的data为json格式 [object] 如果你想查看
+                // var datatext = JSON.stringify(data); //转为字符串
+                // $("resDiv").append(datatext); //在div中加上json转为字符串的数据
+                alert('请求成功');
+            },
+            error: function (msg) {//ajax请求失败后触发的方法
+                //  $('#resDiv').html(data); //请求失败
+                alert(msg);//弹出错误信息
+            }
+        });
+    }
+
+
+</script>
+<div id="resDiv"></div>
+</body>
+</html>

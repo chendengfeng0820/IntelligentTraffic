@@ -1,0 +1,354 @@
+2019-08-07 01:18:18,964 - Using SLF4J as the default logging framework
+2019-08-07 01:18:18,967 - -Dio.netty.eventLoopThreads: 8
+2019-08-07 01:18:18,983 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-08-07 01:18:18,984 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-08-07 01:18:18,990 - -Dio.netty.noKeySetOptimization: false
+2019-08-07 01:18:18,990 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-08-07 01:18:19,032 - -Dio.netty.noUnsafe: false
+2019-08-07 01:18:19,032 - Java version: 8
+2019-08-07 01:18:19,034 - sun.misc.Unsafe.theUnsafe: available
+2019-08-07 01:18:19,035 - sun.misc.Unsafe.copyMemory: available
+2019-08-07 01:18:19,035 - java.nio.Buffer.address: available
+2019-08-07 01:18:19,036 - direct buffer constructor: available
+2019-08-07 01:18:19,036 - java.nio.Bits.unaligned: available, true
+2019-08-07 01:18:19,037 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-08-07 01:18:19,037 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-08-07 01:18:19,037 - sun.misc.Unsafe: available
+2019-08-07 01:18:19,037 - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2019-08-07 01:18:19,037 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-08-07 01:18:19,038 - -Dio.netty.maxDirectMemory: 3711959040 bytes
+2019-08-07 01:18:19,038 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-08-07 01:18:19,040 - java.nio.ByteBuffer.cleaner(): available
+2019-08-07 01:18:19,040 - -Dio.netty.noPreferDirect: false
+2019-08-07 01:18:19,046 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-08-07 01:18:19,072 - -Dio.netty.processId: 29998 (auto-detected)
+2019-08-07 01:18:19,074 - -Djava.net.preferIPv4Stack: false
+2019-08-07 01:18:19,074 - -Djava.net.preferIPv6Addresses: false
+2019-08-07 01:18:19,075 - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2019-08-07 01:18:19,076 - /proc/sys/net/core/somaxconn: 512
+2019-08-07 01:18:19,078 - -Dio.netty.machineId: e4:42:a6:ff:fe:78:13:0b (auto-detected)
+2019-08-07 01:18:19,086 - -Dio.netty.leakDetection.level: simple
+2019-08-07 01:18:19,087 - -Dio.netty.leakDetection.targetRecords: 4
+2019-08-07 01:18:19,107 - -Dio.netty.allocator.numHeapArenas: 8
+2019-08-07 01:18:19,107 - -Dio.netty.allocator.numDirectArenas: 8
+2019-08-07 01:18:19,107 - -Dio.netty.allocator.pageSize: 8192
+2019-08-07 01:18:19,107 - -Dio.netty.allocator.maxOrder: 11
+2019-08-07 01:18:19,107 - -Dio.netty.allocator.chunkSize: 16777216
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.smallCacheSize: 256
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.normalCacheSize: 64
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-08-07 01:18:19,108 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-08-07 01:18:19,115 - -Dio.netty.allocator.type: pooled
+2019-08-07 01:18:19,115 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-08-07 01:18:19,115 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-08-07 01:18:26,600 - -Dio.netty.buffer.checkAccessible: true
+2019-08-07 01:18:26,600 - -Dio.netty.buffer.checkBounds: true
+2019-08-07 01:18:26,601 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@55a50553
+2019-08-07 01:18:26,643 - 客户端加入连接：[id: 0xf20e11e6, L:/127.0.0.1:6789 - R:/127.0.0.1:33544]
+2019-08-07 01:18:26,649 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-08-07 01:18:26,649 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-08-07 01:18:26,649 - -Dio.netty.recycler.linkCapacity: 16
+2019-08-07 01:18:26,650 - -Dio.netty.recycler.ratio: 8
+2019-08-07 01:18:26,663 - ===================进入=======================
+2019-08-07 01:18:26,663 - http
+2019-08-07 01:18:26,665 - [id: 0xf20e11e6, L:/127.0.0.1:6789 - R:/127.0.0.1:33544] WebSocket version V13 server handshake
+2019-08-07 01:18:26,674 - WebSocket version 13 server handshake key: mHr/zKm6aUKZgyE96rsJQw==, response: MfksAY3XTbDXmB3/ejVMpbp2Iic=
+2019-08-07 01:18:26,681 - 返回数据
+2019-08-07 01:18:30,120 - Decoding WebSocket Frame opCode=1
+2019-08-07 01:18:30,121 - Decoding WebSocket Frame length=0
+2019-08-07 01:18:30,121 - ===================进入=======================
+2019-08-07 01:18:30,121 - websocket
+2019-08-07 01:18:30,124 - 服务端收到：
+2019-08-07 01:18:30,217 - 返回数据
+2019-08-07 01:18:30,219 - Encoding WebSocket Frame opCode=1 length=41
+2019-08-07 01:18:32,220 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 01:18:34,221 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 01:18:36,221 - Encoding WebSocket Frame opCode=1 length=42
+2019-08-07 01:18:38,222 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 01:18:40,223 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 01:18:42,223 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 01:20:34,417 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 16:59:43,989 - Using SLF4J as the default logging framework
+2019-08-07 16:59:43,994 - -Dio.netty.eventLoopThreads: 8
+2019-08-07 16:59:44,019 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-08-07 16:59:44,019 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-08-07 16:59:44,026 - -Dio.netty.noKeySetOptimization: false
+2019-08-07 16:59:44,027 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-08-07 16:59:44,047 - -Dio.netty.noUnsafe: false
+2019-08-07 16:59:44,047 - Java version: 8
+2019-08-07 16:59:44,049 - sun.misc.Unsafe.theUnsafe: available
+2019-08-07 16:59:44,052 - sun.misc.Unsafe.copyMemory: available
+2019-08-07 16:59:44,053 - java.nio.Buffer.address: available
+2019-08-07 16:59:44,054 - direct buffer constructor: available
+2019-08-07 16:59:44,054 - java.nio.Bits.unaligned: available, true
+2019-08-07 16:59:44,055 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-08-07 16:59:44,055 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-08-07 16:59:44,055 - sun.misc.Unsafe: available
+2019-08-07 16:59:44,056 - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2019-08-07 16:59:44,057 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-08-07 16:59:44,058 - -Dio.netty.maxDirectMemory: 3711959040 bytes
+2019-08-07 16:59:44,059 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-08-07 16:59:44,061 - java.nio.ByteBuffer.cleaner(): available
+2019-08-07 16:59:44,061 - -Dio.netty.noPreferDirect: false
+2019-08-07 16:59:44,071 - org.jctools-core.MpscChunkedArrayQueue: available
+2019-08-07 16:59:44,101 - -Dio.netty.processId: 5172 (auto-detected)
+2019-08-07 16:59:44,103 - -Djava.net.preferIPv4Stack: false
+2019-08-07 16:59:44,103 - -Djava.net.preferIPv6Addresses: false
+2019-08-07 16:59:44,104 - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2019-08-07 16:59:44,105 - /proc/sys/net/core/somaxconn: 512
+2019-08-07 16:59:44,108 - -Dio.netty.machineId: e4:42:a6:ff:fe:78:13:0b (auto-detected)
+2019-08-07 16:59:44,119 - -Dio.netty.leakDetection.level: simple
+2019-08-07 16:59:44,119 - -Dio.netty.leakDetection.targetRecords: 4
+2019-08-07 16:59:44,142 - -Dio.netty.allocator.numHeapArenas: 8
+2019-08-07 16:59:44,142 - -Dio.netty.allocator.numDirectArenas: 8
+2019-08-07 16:59:44,142 - -Dio.netty.allocator.pageSize: 8192
+2019-08-07 16:59:44,142 - -Dio.netty.allocator.maxOrder: 11
+2019-08-07 16:59:44,143 - -Dio.netty.allocator.chunkSize: 16777216
+2019-08-07 16:59:44,143 - -Dio.netty.allocator.tinyCacheSize: 512
+2019-08-07 16:59:44,143 - -Dio.netty.allocator.smallCacheSize: 256
+2019-08-07 16:59:44,143 - -Dio.netty.allocator.normalCacheSize: 64
+2019-08-07 16:59:44,143 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-08-07 16:59:44,143 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-08-07 16:59:44,144 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-08-07 16:59:44,144 - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-08-07 16:59:44,144 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-08-07 16:59:44,152 - -Dio.netty.allocator.type: pooled
+2019-08-07 16:59:44,152 - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-08-07 16:59:44,152 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-08-07 17:00:14,488 - -Dio.netty.buffer.checkAccessible: true
+2019-08-07 17:00:14,488 - -Dio.netty.buffer.checkBounds: true
+2019-08-07 17:00:14,489 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@c69450f
+2019-08-07 17:00:14,539 - 客户端加入连接：[id: 0xf3bfbeb2, L:/127.0.0.1:6789 - R:/127.0.0.1:35134]
+2019-08-07 17:00:14,547 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2019-08-07 17:00:14,547 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2019-08-07 17:00:14,547 - -Dio.netty.recycler.linkCapacity: 16
+2019-08-07 17:00:14,547 - -Dio.netty.recycler.ratio: 8
+2019-08-07 17:00:14,563 - ===================进入=======================
+2019-08-07 17:00:14,563 - http
+2019-08-07 17:00:14,566 - [id: 0xf3bfbeb2, L:/127.0.0.1:6789 - R:/127.0.0.1:35134] WebSocket version V13 server handshake
+2019-08-07 17:00:14,577 - WebSocket version 13 server handshake key: 6g/GwjuGlNJJC35yJCurKw==, response: X1eY1Frwg/z0zM4jDaDXEv0QMsc=
+2019-08-07 17:00:14,585 - 返回数据
+2019-08-07 17:00:21,823 - Decoding WebSocket Frame opCode=1
+2019-08-07 17:00:21,823 - Decoding WebSocket Frame length=0
+2019-08-07 17:00:21,824 - ===================进入=======================
+2019-08-07 17:00:21,824 - websocket
+2019-08-07 17:00:21,825 - 服务端收到：
+2019-08-07 17:00:21,925 - 返回数据
+2019-08-07 17:00:32,016 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 17:00:41,049 - Encoding WebSocket Frame opCode=1 length=41
+2019-08-07 17:00:44,313 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 17:00:47,317 - Encoding WebSocket Frame opCode=1 length=40
+2019-08-07 17:10:16,082 - Decoding WebSocket Frame opCode=8
+2019-08-07 17:10:16,082 - Decoding WebSocket Frame length=2
+2019-08-07 17:10:16,082 - ===================进入=======================
+2019-08-07 17:10:16,082 - websocket
+2019-08-07 17:10:16,083 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.CloseWebSocketFrame cannot be cast to io.netty.handler.codec.http.websocketx.TextWebSocketFrame
+	at Handler.channelRead(Handler.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-07 17:10:16,086 - 客户端断开连接：[id: 0xf3bfbeb2, L:/127.0.0.1:6789 ! R:/127.0.0.1:35134]
+2019-08-07 17:10:16,109 - 客户端加入连接：[id: 0xd86199ce, L:/127.0.0.1:6789 - R:/127.0.0.1:35296]
+2019-08-07 17:10:16,110 - ===================进入=======================
+2019-08-07 17:10:16,110 - http
+2019-08-07 17:10:16,111 - [id: 0xd86199ce, L:/127.0.0.1:6789 - R:/127.0.0.1:35296] WebSocket version V13 server handshake
+2019-08-07 17:10:16,112 - WebSocket version 13 server handshake key: 9z18TwePrb6gCfHCo97/iw==, response: /1ydpONtw7CG4+0yB4hs7hPId3I=
+2019-08-07 17:10:16,114 - 返回数据
+2019-08-07 17:10:17,340 - Decoding WebSocket Frame opCode=8
+2019-08-07 17:10:17,340 - Decoding WebSocket Frame length=2
+2019-08-07 17:10:17,341 - ===================进入=======================
+2019-08-07 17:10:17,341 - websocket
+2019-08-07 17:10:17,342 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.CloseWebSocketFrame cannot be cast to io.netty.handler.codec.http.websocketx.TextWebSocketFrame
+	at Handler.channelRead(Handler.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-07 17:10:17,347 - 客户端断开连接：[id: 0xd86199ce, L:/127.0.0.1:6789 ! R:/127.0.0.1:35296]
+2019-08-07 17:10:17,357 - 客户端加入连接：[id: 0xe1e95644, L:/127.0.0.1:6789 - R:/127.0.0.1:35302]
+2019-08-07 17:10:17,358 - ===================进入=======================
+2019-08-07 17:10:17,359 - http
+2019-08-07 17:10:17,359 - [id: 0xe1e95644, L:/127.0.0.1:6789 - R:/127.0.0.1:35302] WebSocket version V13 server handshake
+2019-08-07 17:10:17,359 - WebSocket version 13 server handshake key: dDZeBueYDYvNSHOgrRrx8g==, response: mU9ok3V7UetSAANDo06azOziTZc=
+2019-08-07 17:10:17,360 - 返回数据
+2019-08-07 17:10:17,718 - Decoding WebSocket Frame opCode=8
+2019-08-07 17:10:17,719 - Decoding WebSocket Frame length=2
+2019-08-07 17:10:17,719 - ===================进入=======================
+2019-08-07 17:10:17,719 - websocket
+2019-08-07 17:10:17,719 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.CloseWebSocketFrame cannot be cast to io.netty.handler.codec.http.websocketx.TextWebSocketFrame
+	at Handler.channelRead(Handler.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-07 17:10:17,722 - 客户端断开连接：[id: 0xe1e95644, L:/127.0.0.1:6789 ! R:/127.0.0.1:35302]
+2019-08-07 17:10:17,736 - 客户端加入连接：[id: 0x77ca6c8f, L:/127.0.0.1:6789 - R:/127.0.0.1:35306]
+2019-08-07 17:10:17,738 - ===================进入=======================
+2019-08-07 17:10:17,738 - http
+2019-08-07 17:10:17,738 - [id: 0x77ca6c8f, L:/127.0.0.1:6789 - R:/127.0.0.1:35306] WebSocket version V13 server handshake
+2019-08-07 17:10:17,739 - WebSocket version 13 server handshake key: fHqncrtz+4LE9938YtvdIA==, response: yhzOQIXMNuwdpM2JSxzyTzqTWtU=
+2019-08-07 17:10:17,740 - 返回数据
+2019-08-07 17:10:17,912 - Decoding WebSocket Frame opCode=8
+2019-08-07 17:10:17,912 - Decoding WebSocket Frame length=2
+2019-08-07 17:10:17,913 - ===================进入=======================
+2019-08-07 17:10:17,913 - websocket
+2019-08-07 17:10:17,913 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.CloseWebSocketFrame cannot be cast to io.netty.handler.codec.http.websocketx.TextWebSocketFrame
+	at Handler.channelRead(Handler.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-07 17:10:17,916 - 客户端断开连接：[id: 0x77ca6c8f, L:/127.0.0.1:6789 ! R:/127.0.0.1:35306]
+2019-08-07 17:10:17,938 - 客户端加入连接：[id: 0x3731be9f, L:/127.0.0.1:6789 - R:/127.0.0.1:35310]
+2019-08-07 17:10:17,939 - ===================进入=======================
+2019-08-07 17:10:17,939 - http
+2019-08-07 17:10:17,940 - [id: 0x3731be9f, L:/127.0.0.1:6789 - R:/127.0.0.1:35310] WebSocket version V13 server handshake
+2019-08-07 17:10:17,940 - WebSocket version 13 server handshake key: VdCfa0LcRovN2VpukM5m9g==, response: ARPbrQqhDVyCpoS0+ZEZHKuf2iM=
+2019-08-07 17:10:17,941 - 返回数据
+2019-08-07 17:10:18,152 - Decoding WebSocket Frame opCode=8
+2019-08-07 17:10:18,152 - Decoding WebSocket Frame length=2
+2019-08-07 17:10:18,152 - ===================进入=======================
+2019-08-07 17:10:18,152 - websocket
+2019-08-07 17:10:18,152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.CloseWebSocketFrame cannot be cast to io.netty.handler.codec.http.websocketx.TextWebSocketFrame
+	at Handler.channelRead(Handler.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-07 17:10:18,153 - 客户端断开连接：[id: 0x3731be9f, L:/127.0.0.1:6789 ! R:/127.0.0.1:35310]
+2019-08-07 17:10:18,169 - 客户端加入连接：[id: 0x08d686b7, L:/127.0.0.1:6789 - R:/127.0.0.1:35314]
+2019-08-07 17:10:18,170 - ===================进入=======================
+2019-08-07 17:10:18,170 - http
+2019-08-07 17:10:18,171 - [id: 0x08d686b7, L:/127.0.0.1:6789 - R:/127.0.0.1:35314] WebSocket version V13 server handshake
+2019-08-07 17:10:18,172 - WebSocket version 13 server handshake key: cF/Y2kQAyuVVBmzfzSnERw==, response: z9vu9X/agb/uzJxziLsuf+k3q1w=
+2019-08-07 17:10:18,173 - 返回数据
+2019-08-07 17:18:49,240 - Decoding WebSocket Frame opCode=8
+2019-08-07 17:18:49,240 - Decoding WebSocket Frame length=2
+2019-08-07 17:18:49,240 - ===================进入=======================
+2019-08-07 17:18:49,240 - websocket
+2019-08-07 17:18:49,240 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.CloseWebSocketFrame cannot be cast to io.netty.handler.codec.http.websocketx.TextWebSocketFrame
+	at Handler.channelRead(Handler.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-07 17:18:49,241 - 客户端断开连接：[id: 0x08d686b7, L:/127.0.0.1:6789 ! R:/127.0.0.1:35314]

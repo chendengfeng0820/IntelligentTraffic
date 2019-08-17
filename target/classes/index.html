@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+
+<div>发送消息:</div>
+<input type="text" id="msgContent"/>
+<input type="button" value="点我发送" onclick="CHAT.chat()"/>
+<div>接受消息：</div>
+<div id="receiveMsg" style="background-color: gainsboro;"></div>
+<script type="application/javascript">
+
+    // 对Date的扩展，将 Date 转化为指定格式的String
+    // 月(M)、日(d)、小时(h)、分(m)、秒(s)、季度(q) 可以用 1-2 个占位符，
+    // 年(y)可以用 1-4 个占位符，毫秒(S)只能用 1 个占位符(是 1-3 位的数字)
+    Date.prototype.Format = function (fmt) { //author: meizz
+        var o = {
+            "M+": this.getMonth() + 1, //月份
+            "d+": this.getDate(), //日
+            "H+": this.getHours(), //小时
+            "m+": this.getMinutes(), //分
+            "s+": this.getSeconds(), //秒
+            "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+            "S": this.getMilliseconds() //毫秒
+        };
+        if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+        for (var k in o)
+            if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+        return fmt;
+    }
+
+    window.CHAT = {
+        socket: null,
+        init: function () {
+            if (window.WebSocket) {
+                CHAT.socket = new WebSocket("ws://127.0.0.1:6789/websocket");
+                CHAT.socket.onopen = function () {
+                    console.log("连接建立成功...");
+                    /**业务代码*/
+                    var send = {};
+                    send.action = "1";
+                    send.senderid = "46540";
+                    var send1 = JSON.stringify(send);
+                    /**业务代码*/
+                    CHAT.socket.send(send1);//发送
+                },
+                    CHAT.socket.onclose = function () {
+                        console.log("连接关闭...");
+                    },
+                    CHAT.socket.onerror = function () {
+                        console.log("发生错误...");
+                    },
+                    CHAT.socket.onmessage = function (e) {
+                        /**业务代码*/
+                        console.log("接受到消息：" + e.data);
+                        var receiveMsg = document.getElementById("receiveMsg");
+                        var re = JSON.parse(e.data);
+                        for (var i = 0; i < re.length; i++) {
+                            console.log(re[i])
+                        }
+                        switch (re.action) {
+                            case "1":
+                                var all=re.all;
+                              /*  for (var i = 0; i < all.length; i++) {
+                                    alert(all[i].username+"  "+all[i].userimg+"  ")
+                                }*/
+                                break;
+                            case "2":
+                                var chatmsg=re.chatmsg;
+                                var content = chatmsg.content;
+                                var time = new Date();
+                                time.setTime(chatmsg.time);
+                                time = time.Format("yyyy-MM-dd HH:mm:ss");
+                                var msg = content.msg;
+                                var html = receiveMsg.innerHTML;
+                                receiveMsg.innerHTML = html + "<br/>" + time + "  " + msg;
+                                break;
+                        }
+
+                        /**业务代码*/
+                    }
+            } else {
+                alert("浏览器不支持websocket协议...");
+            }
+        },
+        chat: function () {//发送方法
+            /**业务代码*/
+            var msg = document.getElementById("msgContent").value;
+            var send = {};
+            var chatmsg = {};
+            var content = {};
+            content.msg = msg;
+            content.type = "txt";
+            chatmsg.time = "";
+            chatmsg.senderid = "46540";
+            chatmsg.receiverid = "46541"
+            chatmsg.content = content;
+            send.chatmsg = chatmsg;
+            send.action = "2";
+            var send1 = JSON.stringify(send);
+            /**业务代码*/
+            CHAT.socket.send(send1);//发送
+        }
+    };
+
+    CHAT.init();
+
+
+</script>
+</body>
+</html>
